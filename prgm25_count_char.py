@@ -5,7 +5,7 @@ def countChar(inputString):
             Count[char] += 1
         else:
             Count[char] = 1
-        return Count
+    return Count
 str2 = input("Enter a string: ")
 result = countChar(str2)
 print(result)
